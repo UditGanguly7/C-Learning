@@ -4,14 +4,14 @@ int main()
 {
     // int a;
     // a = 1;
-    int a = 1;
+    int a = 1;        // (Using 4 bytes [32 bits]) 
 
     // float b = 1.4; 
-    float b;
+    float b;          // (Using 4 bytes [32 bits])
     b = 1.4;  
 
     // char c = 'a';
-    char c;
+    char c;          //  (Always 1 byte [8 bits])
     c = 'a';
 
     printf("The value of a is %d\n", a);
